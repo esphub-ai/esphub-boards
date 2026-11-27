@@ -1,0 +1,13 @@
+{
+  "name": "SenseCAP Indicator D1Pro",
+  "model": "Seeed Studio SenseCAP Indicator D1Pro",
+  "product_url": "https://www.seeedstudio.com/SenseCAP-Indicator-D1Pro-p-5644.html",
+  "bootloader": "esp32s3-8mb-uart",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "uart"
+  }
+}

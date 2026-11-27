@@ -1,0 +1,14 @@
+{
+  "name": "ESP-Mosaico",
+  "model": "Espressif ESP-Mosaico",
+  "product_url": "https://docs.espressif.com/projects/esp-dev-kits/en/latest/esp32s31/esp-mosaico/index.html",
+  "bootloader": "esp32s31-16mb",
+  "spec": {
+    "soc": "esp32s31",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "uart"
+  },
+  "preview": true
+}

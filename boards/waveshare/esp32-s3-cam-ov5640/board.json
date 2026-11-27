@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-CAM-OV5640",
+  "model": "Waveshare ESP32-S3-CAM-OV5640",
+  "product_url": "https://www.waveshare.com/esp32-s3-cam-ov5640.htm?sku=33699",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

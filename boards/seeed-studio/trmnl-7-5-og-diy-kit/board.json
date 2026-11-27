@@ -1,0 +1,13 @@
+{
+  "name": "TRMNL 7.5″ (OG) DIY Kit",
+  "model": "Seeed Studio TRMNL 7.5″ (OG) DIY Kit",
+  "product_url": "https://www.seeedstudio.com/TRMNL-7-5-Inch-OG-DIY-Kit-p-6481.html",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

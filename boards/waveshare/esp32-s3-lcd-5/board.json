@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-LCD-5",
+  "model": "Waveshare ESP32-S3-LCD-5",
+  "product_url": "https://www.waveshare.com/esp32-s3-touch-lcd-5.htm?sku=30321",
+  "bootloader": "esp32s3-16mb-uart",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "uart"
+  }
+}

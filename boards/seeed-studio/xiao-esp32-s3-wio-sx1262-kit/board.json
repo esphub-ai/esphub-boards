@@ -1,0 +1,13 @@
+{
+  "name": "XIAO ESP32-S3 & Wio-SX1262 Kit",
+  "model": "Seeed Studio XIAO ESP32-S3 & Wio-SX1262 Kit",
+  "product_url": "https://www.seeedstudio.com/Wio-SX1262-with-XIAO-ESP32S3-p-5982.html",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

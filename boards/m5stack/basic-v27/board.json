@@ -1,0 +1,13 @@
+{
+  "name": "Basic v2.7",
+  "model": "M5Stack Basic v2.7",
+  "product_url": "https://shop.m5stack.com/products/esp32-basic-core-lot-development-kit-v2-7",
+  "bootloader": "esp32-16mb",
+  "spec": {
+    "soc": "esp32",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "uart"
+  }
+}

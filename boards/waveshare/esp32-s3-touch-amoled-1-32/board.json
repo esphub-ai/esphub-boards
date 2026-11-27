@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-Touch-AMOLED-1.32",
+  "model": "Waveshare ESP32-S3-Touch-AMOLED-1.32",
+  "product_url": "https://www.waveshare.com/esp32-s3-touch-amoled-1.32.htm",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

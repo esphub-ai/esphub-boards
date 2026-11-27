@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-RS485-WLED",
+  "model": "Waveshare ESP32-S3-RS485-WLED",
+  "product_url": "https://www.waveshare.com/esp32-s3-rs485-wled.htm",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

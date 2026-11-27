@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-GEEK",
+  "model": "Waveshare ESP32-S3-GEEK",
+  "product_url": "https://www.waveshare.com/esp32-s3-geek.htm",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "quad",
+    "console": "usb-serial-jtag"
+  }
+}

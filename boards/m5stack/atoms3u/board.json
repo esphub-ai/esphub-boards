@@ -1,0 +1,13 @@
+{
+  "name": "AtomS3U",
+  "model": "M5Stack AtomS3U",
+  "product_url": "https://shop.m5stack.com/products/atoms3u",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

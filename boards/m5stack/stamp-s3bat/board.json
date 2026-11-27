@@ -1,0 +1,13 @@
+{
+  "name": "Stamp-S3Bat",
+  "model": "M5Stack Stamp-S3Bat",
+  "product_url": "https://shop.m5stack.com/products/m5stamps3-bat-module-with-battery-connector",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

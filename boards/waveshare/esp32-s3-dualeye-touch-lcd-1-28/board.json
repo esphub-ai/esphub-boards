@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-DualEye-Touch-LCD-1.28",
+  "model": "Waveshare ESP32-S3-DualEye-Touch-LCD-1.28",
+  "product_url": "https://www.waveshare.com/esp32-s3-dualeye-touch-lcd-1.28.htm?sku=32265",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

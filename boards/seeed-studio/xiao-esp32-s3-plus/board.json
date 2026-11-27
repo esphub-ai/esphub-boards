@@ -1,0 +1,13 @@
+{
+  "name": "XIAO ESP32-S3 Plus",
+  "model": "Seeed Studio XIAO ESP32-S3 Plus",
+  "product_url": "https://www.seeedstudio.com/Seeed-Studio-XIAO-ESP32S3-Plus-p-6361.html",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

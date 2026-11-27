@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-Touch-RLCD-4.2B",
+  "model": "Waveshare ESP32-S3-Touch-RLCD-4.2B",
+  "product_url": "https://docs.waveshare.net/ESP32-S3-Touch-RLCD-4.2B/",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

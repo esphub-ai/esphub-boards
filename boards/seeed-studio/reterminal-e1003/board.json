@@ -1,0 +1,13 @@
+{
+  "name": "reTerminal E1003",
+  "model": "Seeed Studio reTerminal E1003",
+  "product_url": "https://www.seeedstudio.com/reTerminal-E1003-p-6731.html",
+  "bootloader": "esp32s3-32mb-uart",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 32,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "uart"
+  }
+}

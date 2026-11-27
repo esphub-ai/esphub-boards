@@ -1,0 +1,13 @@
+{
+  "name": "T-Embed-Plus V2",
+  "model": "LILYGO T-Embed-Plus V2",
+  "product_url": "https://github.com/Xinyuan-LilyGO/LilyGoLib/blob/9ebd8096a10a149374b90bf933460b3a6a5e940d/docs/hardware/lilygo-t-embed-plus-v2.md",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

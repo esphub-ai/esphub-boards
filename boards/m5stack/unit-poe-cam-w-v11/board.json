@@ -1,0 +1,13 @@
+{
+  "name": "Unit PoE CAM-W v1.1",
+  "model": "M5Stack Unit PoE CAM-W v1.1",
+  "product_url": "https://shop.m5stack.com/products/m5stack-poe-camera-with-wi-fi-ov3660",
+  "bootloader": "esp32-16mb",
+  "spec": {
+    "soc": "esp32",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "uart"
+  }
+}

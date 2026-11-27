@@ -1,0 +1,13 @@
+{
+  "name": "Stamp-S3",
+  "model": "M5Stack Stamp-S3",
+  "product_url": "https://shop.m5stack.com/products/m5stamp-esp32s3-module",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

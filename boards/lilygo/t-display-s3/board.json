@@ -1,0 +1,13 @@
+{
+  "name": "T-Display-S3",
+  "model": "LILYGO T-Display-S3",
+  "product_url": "https://lilygo.cc/products/t-display-s3",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

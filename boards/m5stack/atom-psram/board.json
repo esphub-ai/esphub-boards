@@ -1,0 +1,13 @@
+{
+  "name": "Atom-PSRAM",
+  "model": "M5Stack Atom-PSRAM",
+  "product_url": "https://shop.m5stack.com/products/m5stack-atom-psram-lcd-display-driver-kit",
+  "bootloader": "esp32-8mb",
+  "spec": {
+    "soc": "esp32",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "uart"
+  }
+}

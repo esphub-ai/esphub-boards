@@ -1,0 +1,13 @@
+{
+  "name": "T-Embed-Plus",
+  "model": "LILYGO T-Embed-Plus",
+  "product_url": "https://lilygo.cc/products/t-embed-cc1101-plus",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

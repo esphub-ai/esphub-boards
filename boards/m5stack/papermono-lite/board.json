@@ -1,0 +1,13 @@
+{
+  "name": "PaperMono-Lite",
+  "model": "M5Stack PaperMono-Lite",
+  "product_url": "https://shop.m5stack.com/products/papermono-lite-dev-kit-800x480-3-97-e-ink-display",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

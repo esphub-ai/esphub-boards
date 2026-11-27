@@ -1,0 +1,13 @@
+{
+  "name": "reSpeaker Flex Circular-4 + XIAO ESP32-S3",
+  "model": "Seeed Studio reSpeaker Flex Circular-4 + XIAO ESP32-S3",
+  "product_url": "https://www.seeedstudio.com/reSpeaker-Flex-XVF3800-Circular-4-with-XIAO-ESP32S3-p-6739.html",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

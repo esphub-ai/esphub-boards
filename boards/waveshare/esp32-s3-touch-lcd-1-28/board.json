@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-Touch-LCD-1.28",
+  "model": "Waveshare ESP32-S3-Touch-LCD-1.28",
+  "product_url": "https://www.waveshare.com/esp32-s3-touch-lcd-1.28.htm",
+  "bootloader": "esp32s3-16mb-uart",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "quad",
+    "console": "uart"
+  }
+}

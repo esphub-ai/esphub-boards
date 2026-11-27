@@ -1,0 +1,13 @@
+{
+  "name": "StackChan",
+  "model": "M5Stack StackChan",
+  "product_url": "https://shop.m5stack.com/products/stackchan-kawaii-co-created-open-source-ai-desktop-robot",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

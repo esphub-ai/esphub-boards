@@ -1,0 +1,13 @@
+{
+  "name": "Air Quality",
+  "model": "M5Stack Air Quality",
+  "product_url": "https://shop.m5stack.com/products/air-quality-kit-w-m5stamps3-sen55-scd40",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

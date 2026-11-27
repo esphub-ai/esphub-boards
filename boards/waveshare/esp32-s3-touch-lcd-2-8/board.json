@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-Touch-LCD-2.8",
+  "model": "Waveshare ESP32-S3-Touch-LCD-2.8",
+  "product_url": "https://www.waveshare.com/esp32-s3-touch-lcd-2.8.htm?sku=27690",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

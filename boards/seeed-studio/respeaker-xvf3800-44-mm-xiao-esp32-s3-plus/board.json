@@ -1,0 +1,13 @@
+{
+  "name": "reSpeaker XVF3800 44 mm + XIAO ESP32-S3 Plus",
+  "model": "Seeed Studio reSpeaker XVF3800 44 mm + XIAO ESP32-S3 Plus",
+  "product_url": "https://wiki.seeedstudio.com/respeaker_44mm_xiao_getting_started/",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

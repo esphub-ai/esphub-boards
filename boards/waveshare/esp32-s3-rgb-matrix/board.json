@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-RGB-Matrix",
+  "model": "Waveshare ESP32-S3-RGB-Matrix",
+  "product_url": "https://www.waveshare.com/esp32-s3-rgb-matrix.htm",
+  "bootloader": "esp32s3-32mb-opi",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 32,
+    "flash_bus": "octal",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

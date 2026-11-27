@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-LR1121-OLED-1.54",
+  "model": "Waveshare ESP32-S3-LR1121-OLED-1.54",
+  "product_url": "https://www.waveshare.com/esp32-s3-lr1121-oled-1.54.htm",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

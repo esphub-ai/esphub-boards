@@ -1,0 +1,13 @@
+{
+  "name": "PaperMono",
+  "model": "M5Stack PaperMono",
+  "product_url": "https://shop.m5stack.com/products/m5papermono-with-lora-nfc-800x480-3-97-eink-display",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Chain Captain",
+  "model": "M5Stack Chain Captain",
+  "product_url": "https://shop.m5stack.com/products/chain-captain-dev-kit-esp32-s3",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

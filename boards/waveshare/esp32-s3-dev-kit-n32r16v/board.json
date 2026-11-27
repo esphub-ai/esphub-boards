@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-DEV-KIT-N32R16V",
+  "model": "Waveshare ESP32-S3-DEV-KIT-N32R16V",
+  "product_url": "https://www.waveshare.com/esp32-s3-dev-kit-n8r8.htm?sku=32837",
+  "bootloader": "esp32s3-32mb-opi",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 32,
+    "flash_bus": "octal",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

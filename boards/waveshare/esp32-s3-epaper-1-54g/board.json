@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-ePaper-1.54G",
+  "model": "Waveshare ESP32-S3-ePaper-1.54G",
+  "product_url": "https://www.waveshare.com/esp32-s3-epaper-1.54g.htm",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

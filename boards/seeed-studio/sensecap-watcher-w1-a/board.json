@@ -1,0 +1,13 @@
+{
+  "name": "SenseCAP Watcher W1-A",
+  "model": "Seeed Studio SenseCAP Watcher W1-A",
+  "product_url": "https://www.seeedstudio.com/SenseCAP-Watcher-W1-A-p-5979.html",
+  "bootloader": "esp32s3-32mb-uart",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 32,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "uart"
+  }
+}

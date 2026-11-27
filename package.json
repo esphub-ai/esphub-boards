@@ -1,0 +1,21 @@
+{
+  "name": "esphub-boards",
+  "version": "1.0.0",
+  "description": "Hardware board definitions and photos for EspHub",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esphub-ai/esphub-boards.git"
+  },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "sync": "node scripts/sync.mjs",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "aws4fetch": "^1.0.20",
+    "postgres": "^4.1.1"
+  }
+}

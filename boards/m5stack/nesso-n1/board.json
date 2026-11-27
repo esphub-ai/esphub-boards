@@ -1,0 +1,13 @@
+{
+  "name": "Arduino Nesso N1",
+  "model": "Arduino Nesso N1",
+  "product_url": "https://docs.m5stack.com/en/core/Arduino_Nesso_N1",
+  "bootloader": "esp32c6-16mb",
+  "spec": {
+    "soc": "esp32c6",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Stamp C6LoRa",
+  "model": "M5Stack Stamp C6LoRa",
+  "product_url": "https://shop.m5stack.com/products/m5stamp-c6lora-module-esp32-c6-sx1262",
+  "bootloader": "esp32c6-16mb",
+  "spec": {
+    "soc": "esp32c6",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

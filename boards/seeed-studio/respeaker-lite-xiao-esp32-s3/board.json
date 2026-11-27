@@ -1,0 +1,13 @@
+{
+  "name": "reSpeaker Lite + XIAO ESP32-S3",
+  "model": "Seeed Studio reSpeaker Lite + XIAO ESP32-S3",
+  "product_url": "https://www.seeedstudio.com/ReSpeaker-Lite-Voice-Assistant-Kit-p-5929.html",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

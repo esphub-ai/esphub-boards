@@ -1,0 +1,13 @@
+{
+  "name": "PaperDIY",
+  "model": "M5Stack PaperDIY",
+  "product_url": "https://shop.m5stack.com/products/paperdiy-assembly-kit-esp32-s3",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

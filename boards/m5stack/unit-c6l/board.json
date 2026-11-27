@@ -1,0 +1,13 @@
+{
+  "name": "Unit C6L",
+  "model": "M5Stack Unit C6L",
+  "product_url": "https://shop.m5stack.com/products/m5stack-c6l-unit-for-meshtastic-sx1262-esp32-c6",
+  "bootloader": "esp32c6-16mb",
+  "spec": {
+    "soc": "esp32c6",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

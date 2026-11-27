@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-AMOLED-1.91",
+  "model": "Waveshare ESP32-S3-AMOLED-1.91",
+  "product_url": "https://www.waveshare.com/esp32-s3-amoled-1.91.htm?sku=28872",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

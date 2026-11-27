@@ -1,0 +1,13 @@
+{
+  "name": "CoreMatrix",
+  "model": "M5Stack CoreMatrix",
+  "product_url": "https://shop.m5stack.com/products/m5stack-core-matrix-dev-kit-esp32-c61",
+  "bootloader": "esp32c61-16mb",
+  "spec": {
+    "soc": "esp32c61",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-LCD-3.16",
+  "model": "Waveshare ESP32-S3-LCD-3.16",
+  "product_url": "https://www.waveshare.com/esp32-s3-lcd-3.16.htm",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Xiaozhi Card",
+  "model": "M5Stack Xiaozhi Card",
+  "product_url": "https://docs.m5stack.com/en/core/Xiaozhi_Card_Kit",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

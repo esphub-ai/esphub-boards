@@ -1,0 +1,13 @@
+{
+  "name": "AtomS3",
+  "model": "M5Stack AtomS3",
+  "product_url": "https://shop.m5stack.com/products/atoms3-dev-kit-w-0-85-inch-screen",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

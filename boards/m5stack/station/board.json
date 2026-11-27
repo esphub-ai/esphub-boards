@@ -1,0 +1,13 @@
+{
+  "name": "Station",
+  "model": "M5Stack Station",
+  "product_url": "https://shop.m5stack.com/products/m5stack-station-esp32-iot-development-kit-battery-version",
+  "bootloader": "esp32-16mb",
+  "spec": {
+    "soc": "esp32",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "uart"
+  }
+}

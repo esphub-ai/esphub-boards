@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-A7670E-4G",
+  "model": "Waveshare ESP32-S3-A7670E-4G",
+  "product_url": "https://www.waveshare.com/product/esp32-s3-a7670e-4g.htm",
+  "bootloader": "esp32s3-16mb-uart",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "uart"
+  }
+}

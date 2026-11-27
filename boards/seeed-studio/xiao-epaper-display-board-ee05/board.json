@@ -1,0 +1,13 @@
+{
+  "name": "XIAO ePaper Display Board EE05",
+  "model": "Seeed Studio XIAO ePaper Display Board EE05",
+  "product_url": "https://www.seeedstudio.com/XIAO-ePaper-Display-Board-EE05-p-6755.html",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

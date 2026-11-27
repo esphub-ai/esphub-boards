@@ -1,0 +1,13 @@
+{
+  "name": "TriviaPOD",
+  "model": "M5Stack TriviaPOD",
+  "product_url": "https://shop.m5stack.com/products/triviapod",
+  "bootloader": "esp32s3-32mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 32,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ToughC5",
+  "model": "M5Stack ToughC5",
+  "product_url": "https://shop.m5stack.com/products/m5stack-toughc5-iot-dev-kit-esp32-c5",
+  "bootloader": "esp32c5-16mb",
+  "spec": {
+    "soc": "esp32c5",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "ESP32-S3-Pico",
+  "model": "Waveshare ESP32-S3-Pico",
+  "product_url": "https://www.waveshare.com/esp32-s3-pico.htm?sku=23803",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "quad",
+    "console": "usb-serial-jtag"
+  }
+}

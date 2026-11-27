@@ -1,0 +1,13 @@
+{
+  "name": "XIAO ESP32-S3 Sense",
+  "model": "Seeed Studio XIAO ESP32-S3 Sense",
+  "product_url": "https://www.seeedstudio.com/XIAO-ESP32S3-Sense-p-5639.html",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}

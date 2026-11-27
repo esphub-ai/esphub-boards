@@ -1,0 +1,13 @@
+{
+  "name": "AtomS3R-Ext",
+  "model": "M5Stack AtomS3R-Ext",
+  "product_url": "https://shop.m5stack.com/products/atoms3r-proto-kit-without-screen",
+  "bootloader": "esp32s3-8mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 8,
+    "flash_bus": "quad",
+    "psram": null,
+    "console": "usb-serial-jtag"
+  }
+}

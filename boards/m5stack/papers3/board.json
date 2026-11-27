@@ -1,0 +1,13 @@
+{
+  "name": "PaperS3",
+  "model": "M5Stack PaperS3",
+  "product_url": "https://shop.m5stack.com/products/m5papers3-esp32s3-development-kit",
+  "bootloader": "esp32s3-16mb",
+  "spec": {
+    "soc": "esp32s3",
+    "flash_mb": 16,
+    "flash_bus": "quad",
+    "psram": "octal",
+    "console": "usb-serial-jtag"
+  }
+}
