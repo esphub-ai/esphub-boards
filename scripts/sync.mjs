@@ -80,11 +80,11 @@ export async function syncBoardsToDatabase(tx, boards) {
   const upserted = await tx`
     INSERT INTO esphub.boards (
       id, vendor, name, model, soc, flash_mb, flash_bus, psram, console,
-      bootloader, product_url, has_photo, preview, retired, display_order, updated_at
+      bootloader, product_url, has_photo, retired, display_order, updated_at
     )
     SELECT
       id, vendor, name, model, soc, flash_mb, flash_bus, psram, console,
-      bootloader, product_url, has_photo, preview, false, display_order, now()
+      bootloader, product_url, has_photo, false, display_order, now()
     FROM jsonb_to_recordset(${tx.json(rows)}::jsonb) AS b(
       id text,
       vendor text,
@@ -98,7 +98,6 @@ export async function syncBoardsToDatabase(tx, boards) {
       bootloader text,
       product_url text,
       has_photo boolean,
-      preview boolean,
       display_order integer
     )
     ON CONFLICT (id) DO UPDATE SET
@@ -113,7 +112,6 @@ export async function syncBoardsToDatabase(tx, boards) {
       bootloader = excluded.bootloader,
       product_url = excluded.product_url,
       has_photo = excluded.has_photo,
-      preview = excluded.preview,
       retired = false,
       display_order = excluded.display_order,
       updated_at = now()
@@ -129,7 +127,6 @@ export async function syncBoardsToDatabase(tx, boards) {
       esphub.boards.bootloader,
       esphub.boards.product_url,
       esphub.boards.has_photo,
-      esphub.boards.preview,
       esphub.boards.retired,
       esphub.boards.display_order
     ) IS DISTINCT FROM (
@@ -144,7 +141,6 @@ export async function syncBoardsToDatabase(tx, boards) {
       excluded.bootloader,
       excluded.product_url,
       excluded.has_photo,
-      excluded.preview,
       false,
       excluded.display_order
     )

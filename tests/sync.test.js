@@ -82,7 +82,6 @@ test(
           bootloader: "esp32s3-16mb",
           product_url: "https://example.com/a",
           has_photo: true,
-          preview: false,
           display_order: null,
           photo_path: "/tmp/fake.webp",
         };

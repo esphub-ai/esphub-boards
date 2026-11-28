@@ -36,8 +36,8 @@ test("repository boards catalog passes full validation", async () => {
   const boards = await loadBoards(boardsDir);
   assert.ok(boards.length >= 176);
   const mosaico = boards.find((b) => b.id === "espressif/esp-mosaico");
-  assert.equal(mosaico?.preview, true);
   assert.equal(mosaico?.console, "uart");
+  assert.equal("preview" in mosaico, false);
   const noPhoto = boards.find((b) => b.id === "lilygo/t-embed-plus-v2");
   assert.equal(noPhoto?.has_photo, false);
 });
@@ -46,15 +46,15 @@ test("validateBoardRecord enforces required bootloader and spec consistency", ()
   const ok = validateBoardRecord("waveshare/esp32-s3-touch-lcd-7c-box", validBoard);
   assert.equal(ok.vendor, "waveshare");
   assert.equal(ok.flash_bus, "octal");
-  assert.equal(ok.preview, false);
   assert.equal(ok.display_order, null);
 
   // Null or missing bootloader is rejected
   assert.throws(() => validateBoardRecord("waveshare/test", { ...validBoard, bootloader: null }));
   assert.throws(() => validateBoardRecord("waveshare/test", { ...validBoard, bootloader: "" }));
 
-  // Unexpected fields (including id in board.json) are rejected
+  // Unexpected fields (including id and removed preview in board.json) are rejected
   assert.throws(() => validateBoardRecord("waveshare/test", { ...validBoard, id: "waveshare/test" }));
+  assert.throws(() => validateBoardRecord("waveshare/test", { ...validBoard, preview: true }));
 
   // Bootloader / spec mismatches are rejected
   assert.throws(() =>
