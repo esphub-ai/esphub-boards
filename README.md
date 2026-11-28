@@ -31,7 +31,7 @@ The board ID (`<vendor>/<slug>`) and `vendor` are derived from the directory pat
 ```
 
 - `bootloader` is required and must match `spec` (`${soc}-${flash_mb}mb`, `-opi` for octal flash, `-uart` for UART console on chips whose default console is USB-Serial-JTAG).
-- Optional fields: `product_url` (`https://` URL), `preview` (boolean, defaults to `false`), `display_order` (integer or `null`).
+- Optional fields: `product_url` (`https://` URL), `display_order` (integer or `null`).
 
 ## Validation and sync
 

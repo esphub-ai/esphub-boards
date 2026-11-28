@@ -9,6 +9,5 @@
     "flash_bus": "quad",
     "psram": null,
     "console": "uart"
-  },
-  "preview": true
+  }
 }

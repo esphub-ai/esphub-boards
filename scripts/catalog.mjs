@@ -12,7 +12,6 @@ const allowedBoardKeys = new Set([
   "product_url",
   "bootloader",
   "spec",
-  "preview",
   "display_order",
 ]);
 const allowedSpecKeys = new Set([
@@ -77,14 +76,6 @@ export function validateBoardRecord(id, raw) {
       throw new Error(`Board ${id}: product_url must use https://`);
     }
     product_url = raw.product_url;
-  }
-
-  let preview = false;
-  if (raw.preview !== undefined) {
-    if (typeof raw.preview !== "boolean") {
-      throw new Error(`Board ${id}: preview must be a boolean`);
-    }
-    preview = raw.preview;
   }
 
   let display_order = null;
@@ -164,7 +155,6 @@ export function validateBoardRecord(id, raw) {
     console: consoleType,
     bootloader,
     product_url,
-    preview,
     display_order,
   };
 }
